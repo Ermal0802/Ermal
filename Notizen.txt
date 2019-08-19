@@ -2,3 +2,6 @@ mkdir = makedir  Ordner erstellen
 touch = Datei erstellen
 mv = move	Datei bewegen
 sudo = super user do 	Als admin ausführen
+git add = Datei zur Versionskontrolle hinzufügen
+git commit -a -m "<msg>" = Alle Änderrungen zur Datenbank Hinzufügen
+git push = Datenbank auf Server syncronisieren
