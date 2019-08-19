@@ -1,0 +1,27 @@
+# Notizen
+mkdir = makedir  Ordner erstellen
+touch = Datei erstellen
+mv = move	Datei bewegen
+sudo = super user do	Als admin ausführen
+# Git
+git add = Datei zur Versionskontrolle hinzufügen
+git commit -a -m "<msg>" = Alle Änderrungen zur Datenbank Hinzufügen
+git push = Datenbank auf Server syncronisieren
+git clone = Klont ein Repository von einem Server
+git pull = Ziehl neuste Ã„nderrungen vom Server
+# ...
+rm = remove	Datei Löschen
+rm -rf = remove recoursive force	Ordner mit allem drin löschen
+cat = Datei Inhalt ausgeben
+echo = Irgentwass ausgaben
+[command] > DateiName = Ausgabe in datei schreiben
+[command] >> DateiName = Ausgabe in datei anhängen
+nano DateiName = Text Editor
+# Linux auf Windows Installieren
+1. Systemsteuerung
+2. Programme und Features
+3. Windows Features Activieren oder deaktivieren
+4. Hacken bei Windows-Subsystems fÃ¼r Linux
+5. OK
+6. Microsoft Store
+7. Ubuntu 18.04 Installieren
