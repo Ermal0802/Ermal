@@ -1,0 +1,4 @@
+mkdir = makedir  Ordner erstellen
+touch = Datei erstellen
+mv = move	Datei bewegen
+sudo = super user do 	Als admin ausführen
