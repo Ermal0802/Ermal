@@ -1,21 +1,21 @@
 # Notizen
-mkdir = makedir  Ordner erstellen
-touch = Datei erstellen
-mv = move	Datei bewegen
-sudo = super user do	Als admin ausführen
+* mkdir = makedir  Ordner erstellen
+* touch = Datei erstellen
+* mv = move	Datei bewegen
+* sudo = super user do	Als admin ausführen
 # Git
-git add = Datei zur Versionskontrolle hinzufügen
-git commit -a -m "<msg>" = Alle Änderrungen zur Datenbank Hinzufügen
-git push = Datenbank auf Server syncronisieren
-git clone = Klont ein Repository von einem Server
-git pull = Ziehl neuste Ã„nderrungen vom Server
+* git add = Datei zur Versionskontrolle hinzufügen
+* git commit -a -m "<msg>" = Alle Änderrungen zur Datenbank Hinzufügen
+* git push = Datenbank auf Server syncronisieren
+* git clone = Klont ein Repository von einem Server
+* git pull = Ziehl neuste Ã„nderrungen vom Server
 # ...
-rm = remove	Datei Löschen
-rm -rf = remove recoursive force	Ordner mit allem drin löschen
-cat = Datei Inhalt ausgeben
-echo = Irgentwass ausgaben
-[command] > DateiName = Ausgabe in datei schreiben
-[command] >> DateiName = Ausgabe in datei anhängen
+* rm = remove	Datei Löschen
+* rm -rf = remove recoursive force	Ordner mit allem drin löschen
+* cat = Datei Inhalt ausgeben
+* echo = Irgentwass ausgaben
+* [command] > DateiName = Ausgabe in datei schreiben
+* [command] >> DateiName = Ausgabe in datei anhängen
 nano DateiName = Text Editor
 # Linux auf Windows Installieren
 1. Systemsteuerung
