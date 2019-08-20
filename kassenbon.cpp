@@ -1,8 +1,12 @@
+#ifndef KASSENBON_CPP
+#define KASSENBON_CPP
+
 #include <iostream>
+#include "kassenbon.hpp"
 
 using namespace std;
 
-int main(int argc, char* args[]) {
+int kassenbon(int argc, char* args[]) {
 
   int ganzZahl = 8;
   float kommaZahlen = 8.3456;
@@ -15,13 +19,12 @@ int main(int argc, char* args[]) {
   int preis = 10;
   char* produkt = args[1];
 
-if(argc > 1){
-  cout << produkt << " "  << preis << " " << "Euro" << endl;
-}
-else{
-  cout << "Keine Bestellung" << endl;
-}
+  if(argc > 1) {
+    cout << produkt << " "  << preis << " " << "Euro" << endl;
+  }
+  else {
+    cout << "Keine Bestellung" << endl;
+  }
 }
 
-
-
+#endif

@@ -1,14 +1,86 @@
-#include <iostream>
+#ifndef MAIN_CPP
+#define MAIN_CPP
+
+#include "kassenbon.hpp"
+#include "taschenrechner.hpp"
+#include "priemzahlen.hpp"
+
 
 using namespace std;
 
-
-void zahl(int);
-
-
 int main(int argc, char* args[]) {
+  int eingabe;
+  
+  do {
+    cout <<"------------------------------------------------------ "<< endl;
+    cout << "kassenbon (1)\n"
+            "Taschenrechner (2)\n"
+            "Priemzahlen (3)\n"
+            "Exit (0) " << endl;
+    cout <<"------------------------------------------------------ "<< endl;
+    cin >> eingabe;
+    
+    switch(eingabe) {
+      case 1:
+          kassenbon(argc, args);
+        break;
+      case 2:
+          taschenrechner();
+        break;
+      case 3:
+          priemzahlen();
+        break;
+      case 0:
+        break;
+      default:
+        cout << "WAS?" << endl;
+    }
+    
+  } while (eingabe != 0);
+
+  return 0;
+}
 
 
+#endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 //--------------------------------------
 //                        _____
 //                       | ____|
@@ -23,8 +95,8 @@ int main(int argc, char* args[]) {
 
   zahl(10);
 
-  if(bla == 00) {
-    
+  if(int bla == 00) {
+    cout << "hallo" << endl;
   }
 
 
@@ -46,38 +118,6 @@ void zahl(int N) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
   for(int i = 10; i > 0; i--){
 
     cout << i << endl;
@@ -89,13 +129,13 @@ void zahl(int N) {
     cout << y << endl;
 
   }
-*/
 
 
 
 
 
-/*
+
+
 
 long meinArray1[4];
 meinArray1[0] = 10;
@@ -176,7 +216,7 @@ cout << "########################################" << endl;
   }
 
 }
-  /*
+
   while(true){
 
     cout << "Hallo" << endl;

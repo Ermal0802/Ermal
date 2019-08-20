@@ -1,5 +1,8 @@
-app: main.cpp
-	g++ -o app.exe main.cpp
+APP=uebungs_app
+SOURCES=$(wildcard ./*.cpp)
 
-test: app
-	./app.exe kekse kaffee kuchen nochwas doener
+$(APP): priemzahlen.cpp
+	g++ -o $(APP).exe $(SOURCES)
+
+test: $(APP)
+	./$(APP).exe
