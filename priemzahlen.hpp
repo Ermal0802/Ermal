@@ -8,7 +8,7 @@ using namespace std;
 
 bool isPrim(int m);
 
-int zahlEingabe(int max, int min);
+int zahlenEingabe(int max = 100, int min = 0);
 
 int priemzahlen();
 

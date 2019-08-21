@@ -38,7 +38,7 @@ int priemzahlen(){
 }
 
 
-int zahlenEingabe(int max = 100, int min = 0) {
+int zahlenEingabe(int max, int min) {
   int zahl = 0;
 
   do {
