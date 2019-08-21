@@ -1,0 +1,16 @@
+How to install the Minimum Profit Editor:
+-----------------------------------------
+
+ 1. mkdir ~/downloads
+ 2. cd ~/downloads
+ 3. wget https://triptico.com/download/mp/mp-5.33.tar.gz
+ 4. tar -xf mp-5.33.tar.gz
+ 5. cd mp-5.33/
+ 6. ./config
+   6.1. Gucken ok ok (ist ganz unten eine make anweisung)
+ 7. sudo apt-get install libncursesw5-dev
+ 8. ./config
+ 9. make
+10. sudo make install
+
+Fertig.

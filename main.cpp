@@ -4,7 +4,7 @@
 #include "kassenbon.hpp"
 #include "taschenrechner.hpp"
 #include "priemzahlen.hpp"
-
+#include "notendurschnitt.hpp"
 
 using namespace std;
 
@@ -16,6 +16,7 @@ int main(int argc, char* args[]) {
     cout << "kassenbon (1)\n"
             "Taschenrechner (2)\n"
             "Priemzahlen (3)\n"
+            "Notendurschnitt (4)\n"
             "Exit (0) " << endl;
     cout <<"------------------------------------------------------ "<< endl;
     cin >> eingabe;
@@ -29,6 +30,9 @@ int main(int argc, char* args[]) {
         break;
       case 3:
           priemzahlen();
+        break;
+        case 4:
+          notendurschnitt();
         break;
       case 0:
         break;

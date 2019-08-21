@@ -25,21 +25,6 @@ int rech (int zah) {
   }
 }
 
-int zahlenEingabe() {
-
-  int zahl = 0;
-  
-  do {
-    cout << "Zahl: ";
-    cin >> zahl;    
-    if((zahl > 100)||(zahl <= 0) ) {
-      cout << "Gib nochmal ein"<< endl;
-    }
-  } while ( (zahl > 100) || (zahl <= 0) );
-  
-  return zahl;
-}
-
 int priemzahlen(){
 
 // 1. Zahl eingaben (Zahl <= 100)
@@ -52,6 +37,20 @@ int priemzahlen(){
   rech(zahl);
 }
 
+
+int zahlenEingabe(int max = 100, int min = 0) {
+  int zahl = 0;
+
+  do {
+    cout << "Zahl: ";
+    cin >> zahl;
+    if((zahl > max)||(zahl <= min) ) {
+      cout << "Gib nochmal ein"<< endl;
+    }
+  } while ( (zahl > max) || (zahl <= min) );
+
+  return zahl;
+}
 
 
 #endif
