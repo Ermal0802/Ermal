@@ -38,14 +38,14 @@ int priemzahlen(){
 }
 
 
-int zahlenEingabe(int max, int min) {
+int zahlenEingabe(int max, int min, const char* output, const char* msg) {
   int zahl = 0;
 
   do {
-    cout << "Zahl: ";
+    cout << output;
     cin >> zahl;
     if((zahl > max)||(zahl <= min) ) {
-      cout << "Gib nochmal ein"<< endl;
+      cout << msg << endl;
     }
   } while ( (zahl > max) || (zahl <= min) );
 

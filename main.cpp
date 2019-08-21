@@ -5,10 +5,13 @@
 #include "taschenrechner.hpp"
 #include "priemzahlen.hpp"
 #include "notendurschnitt.hpp"
+#include "zeugniss.hpp"
+#include "notendurchschnitt2.hpp"
 
 using namespace std;
 
 int main(int argc, char* args[]) {
+  
   int eingabe;
   
   do {
@@ -17,25 +20,41 @@ int main(int argc, char* args[]) {
             "Taschenrechner (2)\n"
             "Priemzahlen (3)\n"
             "Notendurschnitt (4)\n"
+            "Zeugniss (5)\n"
+            "Notendurchschnitt2(6)\n"
             "Exit (0) " << endl;
     cout <<"------------------------------------------------------ "<< endl;
     cin >> eingabe;
     
     switch(eingabe) {
       case 1:
-          kassenbon(argc, args);
+          kassenbon(argc, args);          
         break;
+        
       case 2:
           taschenrechner();
         break;
+        
       case 3:
           priemzahlen();
         break;
-        case 4:
+        
+      case 4:
           notendurschnitt();
         break;
-      case 0:
+        
+      case 5:
+          ZeugnissAnzeige();
         break;
+      
+      case 6:
+          notendurchschnitt2();
+        break;
+        
+      case 0:
+          cout << "bye bye" << endl;
+        break;
+        
       default:
         cout << "WAS?" << endl;
     }
@@ -70,7 +89,19 @@ int main(int argc, char* args[]) {
 
 
 
+/*
 
+
+  int lol = 99;
+  int* olo = &lol;
+  
+  cout << lol << endl;
+  cout << olo << endl;
+  cout << *olo << endl;
+  cout << &olo << endl;
+
+
+*/
 
 
 
