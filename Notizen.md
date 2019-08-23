@@ -25,3 +25,8 @@ nano DateiName = Text Editor
 5. OK
 6. Microsoft Store
 7. Ubuntu 18.04 Installieren
+
+# Zuhause üben
+* Malloc
+* Funktionen
+* struct
